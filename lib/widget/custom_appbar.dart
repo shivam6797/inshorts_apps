@@ -6,7 +6,6 @@ class CustomAppBar extends StatelessWidget {
 
    double screenWidth = 0;
   double screenHeight = 0;
-
   @override
   Widget build(BuildContext context) {
      screenWidth = MediaQuery.of(context).size.width;
